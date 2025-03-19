@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
    */
   output: "export",
 
+
+  // add support for mxd
+  pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+
   /**
    * Set base path. This is usually the slug of your repository.
    *

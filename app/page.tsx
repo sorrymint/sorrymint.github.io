@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import HomeContent from "@/markdown/home.mdx"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
                 </Link>
             </ul>
         </nav>
+        <HomeContent/>
     </div>
   );
 }
