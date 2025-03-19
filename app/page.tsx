@@ -1,7 +1,16 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div>
      <h1>HI</h1>
+        <nav>
+            <ul>
+                <Link href="/blog">
+                   Blog
+                </Link>
+            </ul>
+        </nav>
     </div>
   );
 }
